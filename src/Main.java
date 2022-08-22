@@ -13,5 +13,13 @@ public class Main {
         float weightSecond = 82.7f;
         System.out.println("Общий вес " + (weightFirst+ weightSecond) + " кг");
         System.out.println("Разница в весе " + (weightSecond - weightFirst) + " кг");
+
+        System.out.println("Третье задание");
+        float gramsBananas = 5f * 80;
+        float gramsMilk = 200f * 105;
+        float gramsIceCream = 2f * 100;
+        float gramsEggs = 4f * 70;
+        System.out.println("Общий вес завтрака "  + ((gramsEggs + gramsBananas + gramsMilk + gramsIceCream) / 1000) + " кг");
+
     }
 }
