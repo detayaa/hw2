@@ -7,5 +7,6 @@ public class Main {
         float f = 567.6f;
         double d = 8.44444444444;
         char c = 6543;
+
     }
 }
