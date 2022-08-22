@@ -8,5 +8,10 @@ public class Main {
         double d = 8.44444444444;
         char c = 6543;
 
+        System.out.println("Второе задание");
+        float weightFirst = 78.2f;
+        float weightSecond = 82.7f;
+        System.out.println("Общий вес " + (weightFirst+ weightSecond) + " кг");
+        System.out.println("Разница в весе " + (weightSecond - weightFirst) + " кг");
     }
 }
