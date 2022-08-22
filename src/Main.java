@@ -29,6 +29,26 @@ public class Main {
         System.out.println("Если по 500 грамм, то в " + (kgVgrams / gramsVkg500) + " дней");
         System.out.println("Среднее кол-во дней " + ((kgVgrams / gramsVkg500) +(kgVgrams / gramsVkg500) / 2));
 
+        System.out.println("Пятое задание");
+        float zpMasha = 67760f;
+        float godzpMasha = zpMasha * 12;
+        float zpDenis = 83690f;
+        float godzpDenis = zpDenis * 12;
+        float zpKristina = 76230f;
+        float goszpKristina = zpKristina * 12;
+        var procentMasha = (zpMasha * 10) / 100;
+        zpMasha += procentMasha;
+        var procentDenis = (zpDenis * 10) / 100;
+        zpDenis += procentDenis;
+        var procentKristina = (zpKristina * 10 ) / 100;
+        zpKristina += procentKristina;
+        System.out.println("Маша теперь получает " + zpMasha + " рублей. А годовой доход вырос на " + (godzpMasha % (zpMasha * 12) + " рублей"));
+        System.out.println("Денис теперь получает " + zpDenis + " рублей. А годовой доход вырос на " + (godzpDenis % (zpDenis * 12) + " рублей"));
+        System.out.println("Кристина теперь получает " + zpKristina + " рублей. А годовой доход вырос на " + (goszpKristina % (zpKristina * 12)) + " рублей");
+
+
+
+
 
     }
 }
